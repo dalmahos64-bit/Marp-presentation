@@ -1,10 +1,10 @@
 ---
 marp: true
 title: "Product Documentation Presentation"
-description: "Technical writer documentation using Marp"
 paginate: true
 theme: custom-theme
 class: lead
+description: "Technical writer documentation using Marp"
 ---
 
 <!-- _class: lead -->
@@ -40,35 +40,34 @@ h1 {
 <!-- _class: lead -->
 
 # Overview  
-**Email:** 23f2003561@ds.study.iitm.ac.in  
+**Email:** 23f2003561@ds.study.iitm.ac.in**  
 
 Marp provides:
 
-- Markdown-based docs  
-- Git-friendly workflow  
-- PDF/PPTX/HTML export  
-- Theming  
-- Directives  
+- Markdown-based authoring  
+- Version control compatibility  
+- PDF, PPTX, and HTML export  
+- Custom themes  
 - Math support  
 
 ---
 
-<!-- _backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475" -->
-<!-- _backgroundSize: cover -->
+<!-- Official Marp background image -->
+![bg](https://images.unsplash.com/photo-1518770660439-4636190af475)
 
 # Documentation Architecture  
-**Contact:** 23f2003561@ds.study.iitm.ac.in  
+**Contact:** 23f2003561@ds.study.iitm.ac.in**  
 
-This slide includes a full background image using a Marp directive.
+This slide uses the official Marp background syntax.
 
 ---
 
 # Custom Styling Example
 
 <div class="custom-box">
-This is a **custom-styled box** using inline CSS + custom theme.
+This is a **custom-styled content box** using CSS.
 
-**Email:** 23f2003561@ds.study.iitm.ac.in
+**Email:** 23f2003561@ds.study.iitm.ac.in**
 </div>
 
 ---
@@ -87,12 +86,10 @@ T(n) = 2T\left(\frac{n}{2}\right) + O(n)
 T(n) = O(n \log n)
 \]
 
-**Email:** 23f2003561@ds.study.iitm.ac.in
+**Email:** 23f2003561@ds.study.iitm.ac.in**
 
 ---
 
-# End Slide  
-
+# End  
 Thank you!  
-Reach out at:  
 📧 **23f2003561@ds.study.iitm.ac.in**
