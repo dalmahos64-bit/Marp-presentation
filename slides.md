@@ -1,10 +1,10 @@
 ---
 marp: true
 title: "Product Documentation Presentation"
+description: "Technical writer documentation using Marp"
 paginate: true
 theme: custom-theme
 class: lead
-description: "Technical writer documentation using Marp"
 ---
 
 <!-- _class: lead -->
@@ -38,27 +38,27 @@ h1 {
 ---
 
 <!-- _class: lead -->
-
 # Overview  
-**Email:** 23f2003561@ds.study.iitm.ac.in**  
+**Email:** 23f2003561@ds.study.iitm.ac.in**
 
 Marp provides:
 
-- Markdown-based authoring  
-- Version control compatibility  
-- PDF, PPTX, and HTML export  
-- Custom themes  
-- Math support  
+- Markdown-based documentation  
+- Version control friendliness  
+- Export to HTML, PDF, PPTX  
+- Custom themes and styling  
+- Background images  
+- LaTeX math support  
 
 ---
 
-<!-- Official Marp background image -->
+<!-- Background image slide -->
 ![bg](https://images.unsplash.com/photo-1518770660439-4636190af475)
 
 # Documentation Architecture  
 **Contact:** 23f2003561@ds.study.iitm.ac.in**  
 
-This slide uses the official Marp background syntax.
+This slide uses Marp's official background syntax.
 
 ---
 
@@ -73,23 +73,25 @@ This is a **custom-styled content box** using CSS.
 ---
 
 <!-- _class: lead -->
-
 # Algorithmic Complexity (Math)
 
-### Merge Sort Recurrence
-\[
-T(n) = 2T\left(\frac{n}{2}\right) + O(n)
-\]
+Below is a valid LaTeX block using `$$` syntax:
 
-### Final Complexity:
-\[
+### Merge Sort Recurrence  
+$$
+T(n) = 2T\left(\frac{n}{2}\right) + n
+$$
+
+### Final Complexity  
+$$
 T(n) = O(n \log n)
-\]
+$$
 
 **Email:** 23f2003561@ds.study.iitm.ac.in**
 
 ---
 
 # End  
+
 Thank you!  
 📧 **23f2003561@ds.study.iitm.ac.in**
