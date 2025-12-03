@@ -36,15 +36,19 @@ h1 {
 
 # Product Documentation  
 ### Using Marp for Maintainable Technical Docs  
-**Author:** 23f2003561@ds.study.iitm.ac.in
+
+**Author Email:**  
+📧 **23f2003561@ds.study.iitm.ac.in**
 
 ---
 
-# Why Marp?
+# Overview  
+**Email:** 23f2003561@ds.study.iitm.ac.in  
+
 - Markdown-based  
-- Great for version control (Git)  
-- Easy conversion to HTML/PDF/PPTX  
-- Highly customizable (themes, CSS, directives)
+- Ideal for version control  
+- Export to PDF / HTML / PPTX  
+- Supports theming and CSS
 
 ---
 
@@ -53,46 +57,44 @@ h1 {
 ![bg](https://images.unsplash.com/photo-1518770660439-4636190af475)
 
 # Documentation Architecture  
-### With a Clean Background Image
 
-Marp allows backgrounds via slide-level directives or image syntax.
+**Contact:** 23f2003561@ds.study.iitm.ac.in  
+
+This slide demonstrates using a background image.
 
 ---
 
 # Custom Styling Example
 
 <div class="custom-box">
-This is a *custom-styled box* using inline CSS  
-inside the `slides.md` file.  
-Great for warnings, notes, and highlights.
+Custom-styled content box using CSS embedded inside Marp.
+
+**Author Email:** 23f2003561@ds.study.iitm.ac.in
 </div>
 
 ---
 
 # Algorithmic Complexity
 
-We can include mathematical notation using KaTeX:
+We can include mathematical notation via KaTeX:
 
 ### Example: Merge Sort  
 \[
 T(n) = 2T\left(\frac{n}{2}\right) + O(n)
 \]
 
-### Resulting complexity:
+### Result:
 \[
 T(n) = O(n \log n)
 \]
 
----
-
-# Additional Features
-- Page numbers enabled  
-- Custom theme defined inline  
-- Ready for GitHub + CI export  
-- Version-controlled documentation workflow
+**Email:** 23f2003561@ds.study.iitm.ac.in
 
 ---
 
-# Thank You  
-For questions, email: **23f2003561@ds.study.iitm.ac.in**
+# End Slide  
+
+Thank you!  
+For questions, contact:  
+📧 **23f2003561@ds.study.iitm.ac.in**
 
