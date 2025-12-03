@@ -7,10 +7,15 @@ theme: custom-theme
 class: lead
 ---
 
+<!-- size: 16:9 -->
+<!-- theme: custom-theme -->
+<!-- paginate: true -->
+
 <style>
 /* Custom Theme Definition */
 section {
   font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
 }
 
 h1 {
@@ -26,14 +31,6 @@ h1 {
 }
 </style>
 
-<!-- Custom Theme Registration -->
-<style>
-:root {
-  --bg-color: #ffffff;
-  --text-color: #111111;
-}
-</style>
-
 # Product Documentation  
 ### Using Marp for Maintainable Technical Docs  
 
@@ -42,41 +39,46 @@ h1 {
 
 ---
 
+<!-- class: lead -->
 # Overview  
 **Email:** 23f2003561@ds.study.iitm.ac.in  
 
-- Markdown-based  
-- Ideal for version control  
+Marp lets you:
+
+- Write in Markdown  
+- Track docs in Git  
 - Export to PDF / HTML / PPTX  
-- Supports theming and CSS
+- Use CSS + themes  
+- Embed math and images
 
 ---
 
-<!-- Background Image Slide -->
-<!-- Replace with your own image URL later -->
-![bg](https://images.unsplash.com/photo-1518770660439-4636190af475)
+<!-- backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475" -->
+<!-- backgroundSize: cover -->
 
 # Documentation Architecture  
-
 **Contact:** 23f2003561@ds.study.iitm.ac.in  
 
-This slide demonstrates using a background image.
+This slide uses a background image via a Marp directive.
 
 ---
 
 # Custom Styling Example
 
 <div class="custom-box">
-Custom-styled content box using CSS embedded inside Marp.
+This is a **custom-styled box** using inline CSS.  
+Perfect for info, warnings, or highlights.
 
-**Author Email:** 23f2003561@ds.study.iitm.ac.in
+**Email:** 23f2003561@ds.study.iitm.ac.in
 </div>
 
 ---
 
-# Algorithmic Complexity
+<!-- class: lead -->
 
-We can include mathematical notation via KaTeX:
+# Algorithmic Complexity (Math)
+
+Marp supports KaTeX for equations.
 
 ### Example: Merge Sort  
 \[
@@ -95,6 +97,6 @@ T(n) = O(n \log n)
 # End Slide  
 
 Thank you!  
-For questions, contact:  
+For queries, contact:  
 📧 **23f2003561@ds.study.iitm.ac.in**
 
