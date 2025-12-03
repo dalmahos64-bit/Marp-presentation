@@ -12,7 +12,7 @@ class: lead
 <!-- paginate: true -->
 
 <style>
-/* Custom Theme Definition */
+/* Custom Theme Specification */
 section {
   font-family: 'Segoe UI', sans-serif;
   color: #1a1a1a;
@@ -33,9 +33,7 @@ h1 {
 
 # Product Documentation  
 ### Using Marp for Maintainable Technical Docs  
-
-**Author Email:**  
-📧 **23f2003561@ds.study.iitm.ac.in**
+**Author Email:** 📧 **23f2003561@ds.study.iitm.ac.in**
 
 ---
 
@@ -43,13 +41,14 @@ h1 {
 # Overview  
 **Email:** 23f2003561@ds.study.iitm.ac.in  
 
-Marp lets you:
+Marp allows:
 
-- Write in Markdown  
-- Track docs in Git  
-- Export to PDF / HTML / PPTX  
-- Use CSS + themes  
-- Embed math and images
+- Markdown-based content  
+- Version control friendly  
+- Easy PDF / PPTX / HTML export  
+- Custom themes and styling  
+- Background images  
+- Math equations  
 
 ---
 
@@ -59,15 +58,15 @@ Marp lets you:
 # Documentation Architecture  
 **Contact:** 23f2003561@ds.study.iitm.ac.in  
 
-This slide uses a background image via a Marp directive.
+This slide uses a background image loaded via a Marp directive.
 
 ---
 
 # Custom Styling Example
 
 <div class="custom-box">
-This is a **custom-styled box** using inline CSS.  
-Perfect for info, warnings, or highlights.
+This is a **custom-styled box** using inline CSS.
+Perfect for notes, warnings, or key highlights.
 
 **Email:** 23f2003561@ds.study.iitm.ac.in
 </div>
@@ -75,17 +74,16 @@ Perfect for info, warnings, or highlights.
 ---
 
 <!-- class: lead -->
-
 # Algorithmic Complexity (Math)
 
-Marp supports KaTeX for equations.
+Using KaTeX inside Marp:
 
 ### Example: Merge Sort  
 \[
 T(n) = 2T\left(\frac{n}{2}\right) + O(n)
 \]
 
-### Result:
+### Solves to:
 \[
 T(n) = O(n \log n)
 \]
@@ -97,6 +95,5 @@ T(n) = O(n \log n)
 # End Slide  
 
 Thank you!  
-For queries, contact:  
+For queries, reach out at:  
 📧 **23f2003561@ds.study.iitm.ac.in**
-
