@@ -7,9 +7,9 @@ theme: custom-theme
 class: lead
 ---
 
-<!-- size: 16:9 -->
-<!-- theme: custom-theme -->
-<!-- paginate: true -->
+<!-- _class: lead -->
+<!-- _paginate: true -->
+<!-- _size: 16:9 -->
 
 <style>
 /* Custom Theme Specification */
@@ -37,53 +37,52 @@ h1 {
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
+
 # Overview  
 **Email:** 23f2003561@ds.study.iitm.ac.in  
 
-Marp allows:
+Marp provides:
 
-- Markdown-based content  
-- Version control friendly  
-- Easy PDF / PPTX / HTML export  
-- Custom themes and styling  
-- Background images  
-- Math equations  
+- Markdown-based docs  
+- Git-friendly workflow  
+- PDF/PPTX/HTML export  
+- Theming  
+- Directives  
+- Math support  
 
 ---
 
-<!-- backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475" -->
-<!-- backgroundSize: cover -->
+<!-- _backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475" -->
+<!-- _backgroundSize: cover -->
 
 # Documentation Architecture  
 **Contact:** 23f2003561@ds.study.iitm.ac.in  
 
-This slide uses a background image loaded via a Marp directive.
+This slide includes a full background image using a Marp directive.
 
 ---
 
 # Custom Styling Example
 
 <div class="custom-box">
-This is a **custom-styled box** using inline CSS.
-Perfect for notes, warnings, or key highlights.
+This is a **custom-styled box** using inline CSS + custom theme.
 
 **Email:** 23f2003561@ds.study.iitm.ac.in
 </div>
 
 ---
 
-<!-- class: lead -->
+<!-- _class: lead -->
+
 # Algorithmic Complexity (Math)
 
-Using KaTeX inside Marp:
-
-### Example: Merge Sort  
+### Merge Sort Recurrence
 \[
 T(n) = 2T\left(\frac{n}{2}\right) + O(n)
 \]
 
-### Solves to:
+### Final Complexity:
 \[
 T(n) = O(n \log n)
 \]
@@ -95,5 +94,5 @@ T(n) = O(n \log n)
 # End Slide  
 
 Thank you!  
-For queries, reach out at:  
+Reach out at:  
 📧 **23f2003561@ds.study.iitm.ac.in**
